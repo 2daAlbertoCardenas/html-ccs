@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Manejo de formularios en HTML</title>
+  </head>
+  <body>
+    <h2>Formulario</h2>
+    <!-- NOVALIDATE: Desestima las validaciones requeridas -->
+    <form method="POST">
+      <label for="campo">Institución:</label>
+      <input type="text" id="campo" placeholder="Ingrese su institución" />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <form method="POST" novalidate>
+      <label for="nombre">Nombre:</label>
+      <input
+        type="text"
+        name="nombre"
+        id="nombre"
+        value="Fernando"
+        placeholder="Ingrese su nombre"
+        required="true"
+      />
+      <br />
+      <label for="apellido">Apellido:</label>
+      <input
+        type="text"
+        name="apellido"
+        id="apellido"
+        value="Cocco"
+        placeholder="Ingrese su apellido"
+        required
+      />
+      <br />
+      <label for="edad">Edad:</label>
+      <input
+        type="number"
+        name="edad"
+        id="edad"
+        placeholder="Ingrese su edad"
+        required
+        autofocus
+      />
+      <br />
+      <label for="clave">Ingrese su clave:</label>
+      <input type="password" name="clave" id="clave" />
+      <br />
+      <label for="fecha">Fecha de nacimiento:</label>
+      <input
+        type="date"
+        name="fecha"
+        id="fecha"
+        placeholder="Ingrese su fecha de nacimiento"
+        required
+      />
+      <br />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
