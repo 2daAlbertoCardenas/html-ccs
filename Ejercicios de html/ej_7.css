@@ -1,0 +1,15 @@
+.fondo{
+    background:deeppink;
+
+}
+.letra{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.color-p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: floralwhite;
+    text-align: right;
+
+}
