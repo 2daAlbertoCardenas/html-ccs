@@ -1,0 +1,10 @@
+a:link {
+	color: red;
+}
+a:hover {
+	color: #fff;
+	background-color: #cc0000;
+}
+a:active {
+	color: rgb(70, 61, 61);
+}
