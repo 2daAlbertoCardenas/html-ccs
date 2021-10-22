@@ -1,2 +1,16 @@
-.formato {
+.lista {
+	list-style-type: lower-roman;
+}
+.viñeta {
+	list-style-image: url("../image/flecha.png");
+}
+a:hover {
+	color: #fff;
+	background-color: #cc0000;
+}
+a:active {
+	color: #ccc;
+}
+a:link {
+	color: #cc0000;
 }

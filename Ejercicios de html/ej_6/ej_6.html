@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Registrar un usario</h1>
+		<!--action es la ruta del metodo que va ha manejar la info.-->
+		<form action="ruta" method="post" enctype="multipart/form-data">
+			<label for="name"><strong>Nombres de usuario:</strong></label
+			><br />
+			<input
+				type="text"
+				id="name"
+				name="nombre"
+				placeholder="Pon tu nombre guacho"
+			/><br />
+			<label for="contraseña"><strong>Contraseña de usuario: </strong></label
+			><br />
+			<input
+				type="password"
+				id="contraseña"
+				name="contreña"
+				placeholder="Ingrese contraseña"
+			/><br />
+			<label for="edad"><strong>Edad del usuario</strong></label
+			><br />
+			<input type="number" id="edad" /><br />
+			<label for="fecha"><strong>Fecha de nacimiento del usuario</strong></label
+			><br />
+			<input type="date" id="fecha" /><br />
+			<label for="sexo"><strong>Sexo de usuario</strong></label
+			><br />
+			<input type="radio" name="sexo" />Masculino <br />
+			<input type="radio" name="sexo" />Femenino <br />
+			<label for="pais"
+				><strong>Pais de nacimiento <br /></strong
+			></label>
+			<select name="pais" id="pais">
+				<option value="">Argentina</option>
+				<option value="">Bolivia</option>
+				<option value="">Canada</option>
+				<option value="">Estados Unidos</option>
+				<option value="">Uruguay</option></select
+			><br /><br />
+			<button type="submit">Enviar</button>
+			<button type="reset">Borrar</button>
+		</form>
+	</body>
+</html>
